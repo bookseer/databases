@@ -17,7 +17,7 @@ readme = "README.md"
 homepage = "https://databases.bookseer.org"
 repository = "http://github.com/bookseer/databases"
 documentation = "https://databases.bookseer.org/docs.html"
-keywords = ["keywords"]
+keywords = ["education, sql, database, databases"]
 packages = [{include = "bookseer", from = "src"}]
 exclude = ["book/*"]
 classifiers = [
