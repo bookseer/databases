@@ -488,3 +488,5 @@ book/_build/
 # Jupyter Notebook
 *.ipynb
 .editors_conf/jupyter/lab/workspaces/
+.editors_conf/jupyter/lab/workspaces/
+.editors_conf/jupyter/lab/workspaces/
