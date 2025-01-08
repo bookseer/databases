@@ -147,7 +147,7 @@ python -m jupyter lab --allow-root --NotebookApp.token='' --NotebookApp.password
 
 spyder = """
 echo 'Start Spyder'
-spyder --workdir=./ --window-title bookseer-booktemp --project ./ --conf-dir ./.spyder_config
+spyder --workdir=./ --window-title bookseer-databases --project ./ --conf-dir ./.spyder_config
 """
 
 build_book = """
@@ -158,7 +158,7 @@ jupyter-book build --all --builder html ./book/
 publish_book = """
 echo 'Build and publish book'
 poetry exec build_book
-ghp-import ./book/_build/html --no-jekyll --push --force --cname=booktemp.bookseer.org
+ghp-import ./book/_build/html --no-jekyll --push --force --cname=databases.bookseer.org
 """
 
 clean_book = """
