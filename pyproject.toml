@@ -42,7 +42,7 @@ classifiers = [ # https://pypi.org/classifiers/
 #======================================================================================================================
 [tool.poetry.dependencies] # Dependencies required for this books
 python = "^3.12"
-pip = "~25.0"
+pip = "~25.0" # The PyPA recommended tool for installing Python packages
 
 [tool.poetry.group.jupyter.dependencies] # Dependencies required for JupyterBook
 ipywidgets = "~8.1" # Jupyter interactive widgets
